@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.22.0/cytoscape.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise,fetch"></script>
+    <script src="main.js"></script>
+    <title>Puck Path</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            width: 75%;
+            height: 75%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        input {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="backgroundImage"></div>
+    <div class="holder">
+        <div class="forum">
+            <form id="puckPathForm">
+                <div class="search-container">
+                    <input type="text" class="player1" name="player1" placeholder="Player 1">
+                    <div class="autocomplete" id="player1Autocomplete"></div>
+                </div>
+                <div class="search-container">
+                    <input type="text" class="player2" name="player2" placeholder="Player 2">
+                    <div class="autocomplete" id="player2Autocomplete"></div>
+                </div>
+                <input type="submit" name="submit">
+            </form>
+        </div>
+    </div>
+    <div id="container"></div>
+    <script src="graph.js"></script>
+    <script>
+        sendData();
+    </script>
+</body>
+
+</html>

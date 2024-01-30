@@ -1,0 +1,18 @@
+{"nodes": [
+  {"id":"Wayne Gretzky"},
+  {"id":"Edmonton Oilers(1988)"},
+  {"id":"Martin Gelinas"},
+  {"id":"Nashville Predators(2007)"},
+  {"id":"Pekka Rinne"},
+  {"id":"Nashville Predators(2011)"},
+  {"id":"Ryan Ellis"}
+],
+  "edges":[
+    {"from":"Wayne Gretzky","to":"Edmonton Oilers(1988)"},
+    {"from":"Martin Gelinas","to":"Edmonton Oilers(1988)"},
+    {"from":"Martin Gelinas","to":"Nashville Predators(2007)"},
+  {"from":"Pekka Rinne","to":"Nashville Predators(2007)"},
+    {"from":"Pekka Rinne","to":"Nashville Predators(2011)"},
+    {"from":"Ryan Ellis","to":"Nashville Predators(2011)"}
+  ]
+}
