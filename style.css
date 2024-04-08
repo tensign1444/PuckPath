@@ -118,5 +118,10 @@ h1 {
         font-size: 1.1rem;
     }
 }
+footer {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100px; /* Adjust height as needed */
+}
 
-/* Add more media queries as needed for different screen sizes */
