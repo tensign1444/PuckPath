@@ -2,7 +2,9 @@
   {
     "selector": "node[label]",
     "style": {
-      "label": "data(label)"
+      "label": "data(label)",
+      "background-fit": "cover",
+      "background-color": "blue"
     }
   },
 
